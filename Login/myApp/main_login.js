@@ -148,7 +148,7 @@ sydDOM.part_two = () =>{
 				},
 				[
 					"New user?",
-                    createElement('a',{href:'http://localhost:8000/',style:'color:#2F55DC;text-decoration:none;',class:'select'},["sign Up"])
+                    createElement('a',{href:'../',style:'color:#2F55DC;text-decoration:none;',class:'select'},["sign Up"])
 				]
 			),
             sydDOM.main_form_page()
