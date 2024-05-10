@@ -147,7 +147,7 @@ sydDOM.part_two = () =>{
 				},
 				[
 					"Already have account?",
-                    createElement('a',{href:'http://localhost:8000/login',style:'color:#2F55DC;text-decoration:none;',class:'select'},["Log in"])
+                    createElement('a',{href:'/login',style:'color:#2F55DC;text-decoration:none;',class:'select'},["Log in"])
 				]
 			),
             sydDOM.main_form_page()
