@@ -38,7 +38,7 @@ setStyle([
     },
 ])
 
-const ws = new WebSocket('ws://localhost:8000');
+const ws = new WebSocket('wss://test-repo-v0it.onrender.com');
 let sockectConnectionState = false;
 let pop_timer;
 let loadertimer;
